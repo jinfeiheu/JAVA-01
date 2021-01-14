@@ -3,10 +3,10 @@
 > JDK8默认采用并行parallel收集器，
 > 还有串行，并发，G1总共4种策略
 
-###使用并行【Parallel Scavenge(新生代) + Parallel Old(老年代)】
+### 使用并行【Parallel Scavenge(新生代) + Parallel Old(老年代)】
 > 采用多线程的垃圾收集线程，吞吐量高，STW时间较长
 
-###使用串行【Serial(新生代) + Serial Old(老年代)】
+### 使用串行【Serial(新生代) + Serial Old(老年代)】
 > 只能单线程收集
 
 ### 使用并发【Parallel New(新生代) + Concurrent MarkSweep(老年代)】
